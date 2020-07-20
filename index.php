@@ -1,7 +1,51 @@
-<?php
-    echo "<h1>Hello, world!</h1>";
-    echo "<p>Curso completo PHP</p>";
+<?php 
 
-    echo "Carga horária: 31 Horas";
+require_once("config.php");
 
-?>
+// Carrega um usuário
+// $root = new Usuario();
+// $root->loadbyId(2);
+// echo $root;
+
+//Carrega uma lista de usuários
+// $lista = Usuario::getList();
+// echo json_encode($lista);
+
+// Carrega uma lista de usuários buscando pelo login
+// $search = Usuario::search("ob");
+// echo json_encode($search);
+
+//carrega um usuário usando o login e a senha
+//$usuario = new Usuario();
+//$usuario->login("root", "!@#$");
+
+//echo $usuario;
+/*
+//Criando um novo usuário
+$aluno = new Usuario("aluno", "@lun0");
+$aluno->insert();
+echo $aluno;
+*/ 
+/*
+//Alterar um usuário
+$usuario = new Usuario();
+
+$usuario->loadById(8);
+
+$usuario->update("professor", "!@#$%¨&*");
+
+echo $usuario;
+*/
+
+/* 
+//Deletando um usuario
+
+$usuario = new Usuario();
+$usuario->loadById(7);
+$usuario->delete();
+
+echo $usuario;
+
+
+*/
+ ?>
